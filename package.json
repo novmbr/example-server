@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/novmbr/example-server.git"
   },
+  "launchnow": {
+    "script": "npm start"
+  },
   "author": "November",
   "license": "MIT",
   "bugs": {
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/novmbr/example-server#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "launchnow": "^3.2.1"
   }
 }
